@@ -67,24 +67,28 @@ Console Output:
 Empty
 */
 public class constructArray {
-	int[] sizes = [7,2,1];
-	public String main(args[]) {
-		int[] result;
+	static int[] sizes = {7,2,1};
+	public static void main(String[] args) {
+		int[][] result = new int[sizes.length][];
 		for(int i = 0 ; i <sizes.length ; i++) {
-			result = constructArray(sizes[i]);
-			result.stream().foreach(System.out::println);
+			result[i] = constructArray(sizes[i]);
+		}
+		
+		for(int i = 0 ; i <sizes.length ; i++) {
+			for(int j = 0 ; j <result[i].length ; j++) {
+				System.out.println(result[i][j]);
+			}
+			System.out.println("----------------------");
 		}
 	}
 	
 	/* answer */
-	public int[] constructArray(int size) {
+	public static int[] constructArray(int size) {
 		    int[] r = new int[size];
 		    int s = size;
 		    int c = 1;
 		    for(int i=0 ; i< size; i++) {
-		        (i % 2 == 0)?
-		            r[i] = c++:
-		            r[i] = s--;       
+		    	r[i] = (i % 2 == 0)?c++:s--;
 		    }
 		    return r;
 	}
