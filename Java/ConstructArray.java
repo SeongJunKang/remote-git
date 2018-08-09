@@ -1,4 +1,4 @@
-
+﻿
 /*
 Q .
 Given an integer size, return an array containing each integer from 1 to size in the following order:
@@ -66,7 +66,7 @@ Expected Output:
 Console Output:
 Empty
 */
-public class constructArray {
+public class ConstructArray {
 	static int[] sizes = {7,2,1};
 	public static void main(String[] args) {
 		int[][] result = new int[sizes.length][];
