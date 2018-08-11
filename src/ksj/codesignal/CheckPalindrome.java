@@ -73,15 +73,13 @@ public class CheckPalindrome {
     }
 
     static boolean checkPalindrome(String inputString) {
-        String end = "";
-        String start = inputString.substring(0,inputString.length()/2);
-        for(int i = start.length() ; i > 0 ; i--) {
-            end += start.substring(i-1,i);
+        String reverse = "";
+       for(int i = inputString.length() ; i > 0 ; i--) {
+           reverse += inputString.substring(i-1,i);
         }
-        if(end.equals(inputString.substring(inputString.length() - inputString.length()/2)))
-            return true;
-        else
-            return false;
-    }
+        return inputString.equals(reverse)? true:false;
 
+        // best answer
+        // return inputString.equals(new StringBuilder(inputString).reverse().toString());
+    }
 }
