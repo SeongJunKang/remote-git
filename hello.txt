@@ -1,4 +1,6 @@
 # Hello Git!
 ## Thanks!hoho
 ## Thanks!hahahoho
+`hello world`
+`hello text`
 
