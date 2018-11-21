@@ -1,3 +1,9 @@
-Hello Git!
-Thanks!hoho
-Thanks!hahahoho
+# Hello Git!
+## Thanks!hoho
+## Thanks!hahahoho
+`hello world`
+`hello text`
+
+얼마나 많이 늘려야 빈약하다는 지적을 받지 않나요?
+원하시는 만큼 늘려드립니다.
+
