@@ -1,7 +1,7 @@
 # h1 tag
 ## h2 tag
 ###### h5 까지만 지원
-이것은 *italic* 입니다 (에스터리스크 1개 앞뒤로)
+이것은 *italic* 입니다 (에스터리스크 1개 앞뒤로) <br>
 이것은 **Bolid** 입니다. (에스터리스크 2개 앞뒤로)
 
 ## List 표현법
@@ -39,6 +39,11 @@ public static class Class {
 ```
 
 ### Task List
+mentions -> using @ name <br>
+refs -> using # refs <br>
+links -> using [ links ] ( url )
+del line -> < del > content < / del >
+
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
