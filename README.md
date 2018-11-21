@@ -12,3 +12,4 @@ Issue를 할당하고, Pull requests를 생성하는 예제 및 테스트입니�
 ### git config --global user.email "useremail"
 - 사용자 이메일 등록
 
+## 다른 명령어 추가 예정
