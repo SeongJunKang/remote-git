@@ -39,6 +39,11 @@ public static class Class {
 ```
 
 ### Task List
+mentions -> using @ name <br>
+refs -> using # refs <br>
+links -> using [ links ] ( url )
+del line -> < del > content < / del >
+
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
