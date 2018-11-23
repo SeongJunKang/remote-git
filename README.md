@@ -18,23 +18,26 @@
 ## Git 명령어 
 
 ### git init 
-- git 파일로 변경하기 위한 설정
+- git 파일로 변경하기 위한 초기 설정 실행
 ## 사용자 정보 등록
 ### git config --global user.name "username"
 - 사용자 이름 등록
 ### git config --global user.email "useremail"
 - 사용자 이메일 등록
 ### git add
-- git add . => 워킹 디렉토리의 Untracked 혹은 Modified 파일을 Staged에 저장할 준비를 한다.
+- Untracked 혹은 Modified 파일을 Staged에 저장할 준비를 한다.
+- git add . => 워킹 디렉토리의 파일을 Staged에 저장할 준비를 한다.
 - git add filename => 해당 파일을 Staged에 저장할 준비를 한다.
 - git add *.exp => exp라는 확장자를 가진 파일을 Staged에 저장할 준비를 한다.
 ### git commit
+- 저장 준비가 된 파일들을 Staged에 저장하여 Unmodified 상태로 변경한다.
+- 커밋이 되면 커밋의 정보가 해쉬태그 형태로 남는다.
 - git commit -m "message" => 커밋 내용을 간략한 메세지로 남긴다.
 - git commit => vi가 열리면서 커밋의 자세한 내용을 남긴다.
 ### git status
-- git status => 현재의 관리하고 있는 파일의 상태를 확인할 수 있다.
+- 현재의 관리하고 있는 파일의 상태를 확인할 수 있다.
 ### git log 
-- git log => 현재 커밋된 내용들을 확인할 수 있다.
+- 현재 커밋된 메세지들과 해시태그를 확인할 수 있다.
 
 
 ## 다른 명령어 추가 예정
