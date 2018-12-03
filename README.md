@@ -41,6 +41,19 @@
 ### git log 
 - 현재 커밋된 메세지들과 해시태그를 확인할 수 있다.
 ### git branch
+- git branch [ Branch Name ] => 새로운 Branch를 만든다. 작업할 워킹 디렉토리를 나눈다고 생각하면된다.
+- git branch -d [ Branch Name ] => Branch를 삭제한다.
+### git checkout
+- HEAD는 현재 내가 작업하는 워킹디렉토리의 위치를 의미한다.
+- git checkout [ branchName ] => Branch로 HEAD를 옮긴다.
+- git checkout [ HashCode ] => Branch가 없는 상태의 커밋된 위치로 HEAD를 옮긴다. 해시코드는 약자 6~8자리만 써도 이동이 된다.
+- git checkout -b [ branchName ] => 새로운 Branch를 만들고 HEAD를 이동한다.
+### git merge
+- git merge [ Branch Name ] => master와 해당 branch를 merge(통합)한다.<br>
+ex) bugFix라는 branch와 Master를 merge하는 예제. - git merge bugFix
 
+![Git Game의 intro3](/images/gitMerge.png)
+
+이미지 출처 : [git Game](https://learngitbranching.js.org/)
 
 ## 다른 명령어 추가 예정
