@@ -51,8 +51,20 @@
 ### git merge
 - git merge [ Branch Name ] => master와 해당 branch를 merge(통합)한다.<br>
 ex) bugFix라는 branch와 Master를 merge하는 예제. - git merge bugFix
+ex) 깃 게임 기본 3단계 merge.
 
-![Git Game의 intro3](/GitHub-Study/images/gitMerge.png)
+![Git Game의 깃 기본 3단계](/GitHub-Study/images/gitMerge.png)
+<br>
+
+### git rebase
+- git rebase [합칠 branch] [합쳐질 branch] => 합쳐질 branch를 master에 추가한다라는 의미.<br>
+ex) 깃 게임 기본 4단계 rebase.
+
+![Git Game의 깃 기본 4단계](/GitHub-Study/images/GitRebaseImg.PNG)
+<br>
+
+![Git Game의 깃 기본 4단계의 정답](/GitHub-Study/images/GitRebaseAnswer.PNG)
+<br>
 
 이미지 출처 : [git Game](https://learngitbranching.js.org/)
 
