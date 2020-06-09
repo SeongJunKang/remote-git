@@ -25,7 +25,6 @@ footer
 - refactor : 코드 리팩토링
 - test : 테스트 코드, 리펙토링 테스트 코드 추가
 - chore : 빌드 업무 수정, 패키지 매니저 수정
-이미지 출처 : [git Game](https://learngitbranching.js.org/)
 
 ## Subject
 - 제목은 50자를 넘기지 않고, 첫번째는 대문자로 작성하고 마침표를 붙이지 않는다.
