@@ -83,6 +83,10 @@ ex) 깃 게임 기본 3단계 merge.
 
 ### git rebase
 - git rebase [합칠 branch] [합쳐질 branch] => 합쳐질 branch를 master에 추가한다라는 의미.<br>
+- cf) master랑 branch(ex:test)가 있고, test branch보다 master가 HEAD가 높을 때,<br>
+1. git checkout test<br>
+2. git rebase master<br>
+
 ex) 깃 게임 기본 4단계 rebase.
 
 ![Git Game의 깃 기본 4단계](/GitHub-Study/images/GitRebaseImg.PNG)
